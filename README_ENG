@@ -1,5 +1,19 @@
 Further development of an Arduino-based LED-Race LED-RACE
 
-In our training we have further developed an LED-Race, where we have the basic idea also from GitHub, and equipped it with a few additional functions. With an Arduino and an addressable LED stripe, we built an LED race where you can move your "worm" of 5 LEDs forward by tapping a button in quick succession. Depending on how fast you tap on the button, the faster the "worm" is accelerated. Beside this basic function of the LED race we have developed a boost system. After a certain time, our optimized race charges a boost, which is activated by pressing the 2nd button on the controller. This gives you the maximum achievable speed for a few seconds. The status of the boost, i.e. when it is ready for use, can be seen from the LEDs, where one more LED lights up depending on the boost status. If the boost is fully charged, then this indicator also flashes in white. On the track, so on the actual LED stripe, we have also made an improvement by making the track changeable. So the actual circuit has 2 branches that add another part to the circuit. This part becomes drivable at a random time in the race. (The race goes for several laps). This new part does not make it any different for the player to play the game, but visually makes a lot of difference. In addition, we have installed an LC display, on which you can see in advance the start countdown and at the end the winner and the respective scores of the players. The scores are determined by how fast someone has typed. This score makes the race much more comparable.
+In our training we have further developed an LED-Race, where we have the basic idea also from GitHub,
+and equipped it with a few additional functions. With an Arduino and an addressable LED stripe,
+we built an LED race where you can move your "worm" of 5 LEDs forward by tapping a button in quick succession. 
+Depending on how fast you tap on the button, the faster the "worm" is accelerated. 
+Beside this basic function of the LED race we have developed a boost system. After a certain time, 
+our optimized race charges a boost, which is activated by pressing the 2nd button on the controller. 
+This gives you the maximum achievable speed for a few seconds. The status of the boost,
+i.e. when it is ready for use, can be seen from the LEDs, where one more LED lights up depending on the boost status.
+If the boost is fully charged, then this indicator also flashes in white. On the track, so on the actual LED stripe, 
+we have also made an improvement by making the track changeable. So the actual circuit has 2 branches that add another part to the circuit. 
+This part becomes drivable at a random time in the race. (The race goes for several laps). .
+This new part does not make it any different for the player to play the game, but visually makes a lot of difference.
+In addition, we have installed an LC display, on which you can see in advance the start countdown and at the end the winner 
+and the respective scores of the players. The scores are determined by how fast someone has typed. 
+This score makes the race much more comparable.
 
 In the files you can find the commented sourcecode for the race and a schematic for the circuit board.
